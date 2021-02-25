@@ -1,0 +1,2 @@
+Host gitlab.com
+    IdentityFile /root/.ssh/deploy_key
