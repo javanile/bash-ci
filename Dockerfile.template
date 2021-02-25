@@ -4,7 +4,7 @@ RUN apk add --no-cache \
     git \
     make \
     openssl-dev \
-    ssh \
+    openssh-keygen \
     gcc \
     libc-dev \
     bash \
