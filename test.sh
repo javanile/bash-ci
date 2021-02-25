@@ -9,6 +9,10 @@ cd private-repository
 
 date > TEST
 
+echo -e "test:\n\tls" > Makefile
+
+make test
+
 git add .
 git commit -am "TEST"
 git push
