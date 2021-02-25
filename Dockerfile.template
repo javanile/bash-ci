@@ -5,8 +5,6 @@ RUN apk add --no-cache \
     make \
     openssl-dev \
     openssh-client \
-    gcc \
-    libc-dev \
     bash \
     gettext \
     curl \

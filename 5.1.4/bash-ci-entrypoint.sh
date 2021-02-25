@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-echo "Docker CI"
+echo "======="
+echo "BASH CI"
+echo "======="
 #echo " - WORKDIR: ${PWD}"
 
 #printenv
 
-git config --global user.name "Docker CI"
+git config --global user.name "BASH CI"
 git config --global user.email "${GITLAB_USER_EMAIL}"
 
 [[ -n "${GITLAB_DEPLOY_KEY}" ]] && GITLAB_DEPLOY_KEY=${CI_PROJECT_DIR}/${GITLAB_DEPLOY_KEY}
