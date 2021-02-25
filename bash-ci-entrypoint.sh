@@ -3,9 +3,10 @@
 echo "======="
 echo "BASH CI"
 echo "======="
-#echo " - WORKDIR: ${PWD}"
 
-#printenv
+echo "Environment"
+echo "  WORKDIR: ${PWD}"
+echo "  GITLAB_DEPLOY_KEY: ${GITLAB_DEPLOY_KEY}"
 
 git config --global user.name "BASH CI"
 git config --global user.email "${GITLAB_USER_EMAIL}"
